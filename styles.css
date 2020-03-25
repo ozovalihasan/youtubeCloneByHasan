@@ -1,0 +1,217 @@
+#navbar{
+    position: fixed;
+    background-color: white;
+    display: flex;
+    width:100%;
+    top: 0px;
+    padding-top:15px;
+}
+
+#menu{
+    float: left;
+    overflow: hidden;
+    width:90px;
+}
+
+#logo{
+    width:80px;
+    height:40px;
+    overflow: hidden;
+    width:350px;
+}
+
+#logoImage{
+    width:80px;
+    height:40px;
+}
+
+#textBox{
+    font-size: 20px;
+    overflow: hidden;
+    justify-content: center;
+    width:70%;
+}
+#inputText{
+    font-size: 14pt;
+    
+}
+
+#search{
+    height: 30px;
+    float:left;
+    overflow: hidden;
+    width:20%;
+}
+
+#searchButton{
+    background-color: transparent;
+    border: solid gray 2px;
+}
+
+#searchIcon{
+    
+    height: 20px;
+   
+    
+}
+
+#camera{
+    left:0px;
+    overflow: hidden;
+    width:80px;
+}
+
+#nineDotIcon{
+    left:0px;
+    overflow: hidden;
+    width:80px;
+}
+
+#ring{
+    overflow: hidden;
+    width:80px;
+    background-color;white:
+}
+
+#profilIcon{
+    overflow: hidden;
+    width:80px;
+}
+
+#bar{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#main{
+    display:flex;
+}
+#video{
+    background-color: white;
+    float: left;
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+#infoBar{
+    display: flex;
+}
+
+
+#viewNumber{
+ 
+    overflow: hidden;
+    width: 100%;
+ 
+}
+
+#likeBar{
+    height:20px;
+    display: flex;
+
+}
+
+#shareButtonAll{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    
+}
+
+h2.likeBarElement{
+    color: gray;
+    height: 20px;
+    margin-top:5px;
+    
+}
+
+.likeBarElement{
+    height: auto;
+   
+    font-size: 12px;
+}
+
+#description{
+    display: flex;
+}
+
+#subscribe{
+    background-color: transparent;
+    overflow: hidden;
+    width: 30%;
+    border: none;
+}
+
+#userIcon{
+    overflow: hidden;
+    width: 80%;
+}
+
+#descriptionText{
+    position: relative;
+    left: 70px;
+    width: 70%;
+}
+
+
+#sidebar{
+    background-color: white;
+    overflow: hidden;
+   
+}
+
+#nextBar{
+    display: flex;
+}
+
+#nextText{
+    font-size: 20px;
+    overflow: hidden;
+    width: 70%;
+}
+
+#autoplay{
+    font-size: 18px;
+    overflow: hidden;
+    width: 20%;
+}
+#autoplayButton{
+    overflow: hidden;
+    height: 50px;
+  
+}
+
+.suggestionElement{
+    display: flex;
+    height: 100px;
+}
+
+.sugImage{
+
+    overflow: hidden;
+    width: 168px;
+}
+
+.sugProperites{
+    font-size: 10px;
+    width: 50%;
+    overflow: hidden;
+}
+.sugName{
+    font-size: 14px;
+}
+
+.sugAuthor {
+    font-size: 13px;
+    color:gray;
+}
+
+.sugView{
+    font-size: 13px;
+    color:gray;
+}
+
