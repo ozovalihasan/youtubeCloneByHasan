@@ -1,217 +1,206 @@
-#navbar{
-    position: fixed;
-    background-color: white;
-    display: flex;
-    width:100%;
-    top: 0px;
-    padding-top:15px;
+#navbar {
+  position: fixed;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
 }
 
-#menu{
-    float: left;
-    overflow: hidden;
-    width:90px;
+#menu {
+  float: left;
+  overflow: hidden;
+  width: 90px;
 }
 
-#logo{
-    width:80px;
-    height:40px;
-    overflow: hidden;
-    width:350px;
+#logo {
+  height: 40px;
+  overflow: hidden;
+  width: 350px;
 }
 
-#logoImage{
-    width:80px;
-    height:40px;
+#logoImage {
+  width: 80px;
+  height: 40px;
 }
 
-#textBox{
-    font-size: 20px;
-    overflow: hidden;
-    justify-content: center;
-    width:70%;
-}
-#inputText{
-    font-size: 14pt;
-    
+#textBox {
+  font-size: 20px;
+  overflow: hidden;
+  justify-content: center;
+  width: 70%;
 }
 
-#search{
-    height: 30px;
-    float:left;
-    overflow: hidden;
-    width:20%;
+#inputText {
+  font-size: 14pt;
 }
 
-#searchButton{
-    background-color: transparent;
-    border: solid gray 2px;
+#search {
+  height: 30px;
+  float: left;
+  overflow: hidden;
+  width: 20%;
 }
 
-#searchIcon{
-    
-    height: 20px;
-   
-    
+#searchButton {
+  background-color: transparent;
+  border: solid gray 2px;
 }
 
-#camera{
-    left:0px;
-    overflow: hidden;
-    width:80px;
+#searchIcon {
+  height: 20px;
 }
 
-#nineDotIcon{
-    left:0px;
-    overflow: hidden;
-    width:80px;
+#camera {
+  overflow: hidden;
+  width: 80px;
 }
 
-#ring{
-    overflow: hidden;
-    width:80px;
-    background-color:white;
+#nineDotIcon {
+  overflow: hidden;
+  width: 80px;
 }
 
-#profilIcon{
-    overflow: hidden;
-    width:80px;
+#ring {
+  overflow: hidden;
+  width: 80px;
+  background-color: white;
 }
 
-#bar{
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+#profilIcon {
+  overflow: hidden;
+  width: 80px;
 }
 
-#main{
-    display:flex;
-}
-#video{
-    background-color: white;
-    float: left;
-    width: 70%;
-    height: auto;
-    overflow: hidden;
-
+#bar {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
 
-#infoBar{
-    display: flex;
+#main {
+  display: flex;
 }
 
-
-#viewNumber{
- 
-    overflow: hidden;
-    width: 100%;
- 
+#video {
+  background-color: white;
+  float: left;
+  width: 70%;
+  height: auto;
+  overflow: hidden;
 }
 
-#likeBar{
-    height:20px;
-    display: flex;
-
+#videoLink {
+  width: 100%;
+  height: 550px;
+  border: 0;
 }
 
-#shareButtonAll{
-    display: flex;
-    background-color: transparent;
-    border: none;
-    
+#infoBar {
+  display: flex;
 }
 
-h2.likeBarElement{
-    color: gray;
-    height: 20px;
-    margin-top:5px;
-    
+#viewNumber {
+  overflow: hidden;
+  width: 100%;
 }
 
-.likeBarElement{
-    height: auto;
-   
-    font-size: 12px;
+#likeBar {
+  height: 20px;
+  display: flex;
 }
 
-#description{
-    display: flex;
+#shareButtonAll {
+  display: flex;
+  background-color: transparent;
+  border: none;
 }
 
-#subscribe{
-    background-color: transparent;
-    overflow: hidden;
-    width: 30%;
-    border: none;
+h2.likeBarElement {
+  color: gray;
+  height: 20px;
+  margin-top: 5px;
 }
 
-#userIcon{
-    overflow: hidden;
-    width: 80%;
+.likeBarElement {
+  height: auto;
+  font-size: 12px;
 }
 
-#descriptionText{
-    position: relative;
-    left: 70px;
-    width: 70%;
+#description {
+  display: flex;
 }
 
-
-#sidebar{
-    background-color: white;
-    overflow: hidden;
-   
+#subscribe {
+  background-color: transparent;
+  overflow: hidden;
+  width: 30%;
+  border: none;
 }
 
-#nextBar{
-    display: flex;
+#userIcon {
+  overflow: hidden;
+  width: 80%;
 }
 
-#nextText{
-    font-size: 20px;
-    overflow: hidden;
-    width: 70%;
+#descriptionText {
+  position: relative;
+  left: 70px;
+  width: 70%;
 }
 
-#autoplay{
-    font-size: 18px;
-    overflow: hidden;
-    width: 20%;
-}
-#autoplayButton{
-    overflow: hidden;
-    height: 50px;
-  
+#sidebar {
+  background-color: white;
+  overflow: hidden;
 }
 
-.suggestionElement{
-    display: flex;
-    height: 100px;
+#nextBar {
+  display: flex;
 }
 
-.sugImage{
-
-    overflow: hidden;
-    width: 168px;
+#nextText {
+  font-size: 20px;
+  overflow: hidden;
+  width: 70%;
 }
 
-.sugProperites{
-    font-size: 10px;
-    width: 50%;
-    overflow: hidden;
+#autoplay {
+  font-size: 18px;
+  overflow: hidden;
+  width: 20%;
 }
-.sugName{
-    font-size: 14px;
+
+#autoplayButton {
+  overflow: hidden;
+  height: 50px;
+}
+
+.suggestionElement {
+  display: flex;
+  height: 100px;
+}
+
+.sugImage {
+  overflow: hidden;
+  width: 168px;
+}
+
+.sugProperites {
+  font-size: 10px;
+  width: 50%;
+  overflow: hidden;
+}
+
+.sugName {
+  font-size: 14px;
 }
 
 .sugAuthor {
-    font-size: 13px;
-    color:gray;
+  font-size: 13px;
+  color: gray;
 }
 
-.sugView{
-    font-size: 13px;
-    color:gray;
+.sugView {
+  font-size: 13px;
+  color: gray;
 }
-
