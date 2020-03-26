@@ -110,21 +110,24 @@
   display: flex;
 }
 
-#shareButtonAll {
-  display: flex;
-  background-color: transparent;
-  border: none;
-}
-
-h2.likeBarElement {
-  color: gray;
-  height: 20px;
-  margin-top: 5px;
-}
-
 .likeBarElement {
   height: auto;
   font-size: 12px;
+  color: gray;
+}
+
+.buttonAll {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  color: gray;
+  height: 20px;
+}
+
+a.likeBarElement {
+  color: gray;
+  height: 20px;
+  margin-top: 2px;
 }
 
 #description {
