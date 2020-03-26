@@ -4,6 +4,7 @@
   display: flex;
   width: 100%;
   padding-top: 15px;
+  margin-top: -15px;
 }
 
 #menu {
@@ -85,9 +86,10 @@
 #video {
   background-color: white;
   float: left;
-  width: 70%;
+  width: 65%;
   height: auto;
   overflow: hidden;
+  margin: 0 10px 0 10px;
 }
 
 #videoLink {
@@ -155,6 +157,7 @@ a.likeBarElement {
 #sidebar {
   background-color: white;
   overflow: hidden;
+  width: 390px;
 }
 
 #nextBar {
