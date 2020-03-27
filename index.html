@@ -29,25 +29,31 @@
                     <img id="searchIcon" src="images/searchIcon.png" alt="Click to search" >
                 </button>
                 
-            </div>  
+            </div>
+            <div id="upLoad">
+                <img src="images/upLoad.png" alt="upLoad Icon" >
+            </div>
+            <div id="signIn">
+                <img src="images/signIn.png" alt="signIn Icon">
+            </div>
 
+            <!--
+                Next part is can be actived if new version of Youtube is wanted to use
+            -->
+
+            <!-- 
             <div id="camera">
                 <img src="images/cameraIcon.png" alt="Camera Icon" >
             </div>
-
             <div id="nineDotIcon">
                 <img src="images/nineDotIcon.png" alt="Apps Icon">
             </div>
-
             <div id="ring">
                 <img src="images/ringIcon.png" alt="Ring Icon">
             </div>
-
-
             <div id="profilIcon">
-                <img src="images/profilIcon.png" alt="Avatar">
-            </div>
-    
+                <img id="profilImage" src="images/profilIcon.png" alt="Avatar">
+            </div-->
         </nav>
         
         <main>
@@ -60,47 +66,49 @@
                 <div id="nameVideo">
                     <h1>Here is why Bogibeel Bridge is special..!</h1>
                 </div>
-                <div id="infoBar">
-                    <div id="viewNumber" >
-                        <img src="view.png" alt="Number of views">
-                    </div>
-                    <div id="likeBar">
-                        <button class="buttonAll">
-                            <img class="likeBarElement"  src="images/likeButton.png" alt="Click to like">
-                            406
-                        </button>  
-                        <button class="buttonAll">
-                            <img class="likeBarElement"  src="images/unlikeButton.png" alt="Click to unlike">
-                            16
-                        </button>  
-                        <button class="buttonAll">
-                            <img class="likeBarElement"  src="images/shareButton.png" alt="Click to share">
-                            SHARE
-                        </button>   
-                        <button class="buttonAll">
-                            <img class="likeBarElement"  src="images/addListButton.png" alt="Click to save">
-                            SAVE
-                        </button>   
-                        <button class="buttonAll">
-                            <img class="likeBarElement"  src="images/threeDotButton.png" alt="Click to see more options">                            
-                        </button>                       
-                    </div>
-                </div>
 
 
-
-                <div id="description">
+                <div class="publisher">
                     <div id="userIcon" >
                         <img src="images/userIcon.png" alt="Profil of author">
                     </div>
-                    <button id="subscribe">
-                        <img src="images/subscribe.PNG" alt="Click to subscribe">  
-                    </button>
-                    
+                    <div class="subscribeTab">
+                        <h1 id="nameAuthor">PIB India</h1> 
+                        <button id="subscribe">
+                            <img src="images/subscribe.PNG" alt="Click to subscribe">  
+                        </button>     
+                    </div>
+                    <div id="view">
+                        <h2>2,982,227 views</h2>
+                    </div>
                 </div>
-
-                <p id="descriptionText">A befitting tribute to former PM #AtalBihariVajpayee, India’s longest Rail-cum-Road Bridge, #BogibeelBridge over river Brahmaputra is a construction marvel and a milestone for the development of North East. Watch to know more.</p>
-
+                
+                <div id="infoBar">
+                    <div id="likeBar">
+                        <button class="buttonAll">
+                            <img class="likeBarElement"  src="images/shareButton.png" alt="Click to share">                    
+                        </button>   
+                        <button class="buttonAll" id="addButton">
+                            <img class="likeBarElement"  src="images/addListButton.png" alt="Click to save">                
+                        </button>   
+                        <button class="buttonAll" id="threeDotButton">
+                            <img class="likeBarElement"  src="images/threeDotButton.png" alt="Click to see more options">                            
+                        </button>   
+                        <button class="buttonAll" id="likeButton">
+                            <img class="likeBarElement"  src="images/likeButton.png" alt="Click to like">
+                        </button>  
+                        <button class="buttonAll" id="unlikeButton">
+                            <img class="likeBarElement"  src="images/unlikeButton.png" alt="Click to unlike">
+                        </button>                      
+                    </div>
+                </div>
+                <br>
+                <div class="description">
+                    <h2>Published on Feb 27,2014</h2>
+                    <p>A befitting tribute to former PM #AtalBihariVajpayee, India’s longest Rail-cum-Road Bridge, #BogibeelBridge over river Brahmaputra is a construction marvel and a milestone for the development of North East. Watch to know more.</p>
+                    <center class="more">SHOW MORE</center>   
+                </div>
+               
             </section>
             <aside id="sidebar">
                 <div id="nextBar">
@@ -157,14 +165,46 @@
                             <h2 class="sugView">25 K view</h2>
                         </div>                    
                     </div>
+                    <div class="suggestionElement"> 
+                        <img class="sugImage" src="sidebar/suggestion7.png" alt="One of suggestion videos" >
+                        <div class="sugProperites">
+                            <h2 class="sugName">Google Chrome Developer Tools Crash Course </h2>
+                            <h2 class="sugAuthor">Traversy Media</h2>
+                            <h2 class="sugView">254 K view</h2>
+                        </div>                    
+                    </div>
+                    <div class="suggestionElement"> 
+                        <img class="sugImage" src="sidebar/suggestion8.png" alt="One of suggestion videos" >
+                        <div class="sugProperites">
+                            <h2 class="sugName">50 Dev tool tips and tricks:  Become an expert front end developer </h2>
+                            <h2 class="sugAuthor">That JS Dude</h2>
+                            <h2 class="sugView">45 K view</h2>
+                        </div>                    
+                    </div>
+                    <div class="suggestionElement"> 
+                        <img class="sugImage" src="sidebar/suggestion9.png" alt="One of suggestion videos" >
+                        <div class="sugProperites">
+                            <h2 class="sugName">JavaScript Pro Tips - Code This, NOT That</h2>
+                            <h2 class="sugAuthor">Fireship</h2>
+                            <h2 class="sugView">1,1 Mn view</h2>
+                        </div>                    
+                    </div>
+                    <div class="suggestionElement"> 
+                        <img class="sugImage" src="sidebar/suggestion10.png" alt="One of suggestion videos" >
+                        <div class="sugProperites">
+                            <h2 class="sugName">Debugging JavaScript - Beginner to Advanced in One Video</h2>
+                            <h2 class="sugAuthor">youwebdev</h2>
+                            <h2 class="sugView">105 K view</h2>
+                        </div>                    
+                    </div>
                 </div>
-
-
-
-            
+                <center class="more">SHOW MORE</center>       
             </aside>
-        </main>
+        </main> 
 
+        <footer>
+           <img src="images/footer.png" alt="">
+        </footer>
 
 </body>
 

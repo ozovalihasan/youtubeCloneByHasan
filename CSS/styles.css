@@ -1,13 +1,21 @@
+body {
+  padding: 0px 40px 0px 40px;
+  font-family: sans-serif;
+}
+
 #navbar {
   position: fixed;
   background-color: white;
   display: flex;
-  width: 100%;
+  width: 90%;
   padding-top: 25px;
   margin-top: -15px;
+  z-index: 1;
+  padding-right: 15px;
 }
 
 #menu {
+  margin-left: 50px;
   float: left;
   overflow: hidden;
   width: 90px;
@@ -17,6 +25,7 @@
   height: 40px;
   overflow: hidden;
   width: 350px;
+  margin-top: -5px;
 }
 
 #logoImage {
@@ -51,32 +60,45 @@
   height: 20px;
 }
 
+#upLoad {
+  overflow: hidden;
+  width: 100px;
+}
+
+#signIn {
+  overflow: hidden;
+  width: 100px;
+}
+
 #camera {
   overflow: hidden;
   width: 80px;
+  margin-top: 2px;
 }
 
 #nineDotIcon {
   overflow: hidden;
   width: 80px;
+  margin-top: 3px;
 }
 
 #ring {
   overflow: hidden;
   width: 80px;
   background-color: white;
+  margin-top: 1px;
 }
 
 #profilIcon {
   overflow: hidden;
   width: 80px;
+  margin-top: 2px;  
 }
 
-#bar {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+#profilImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 #main {
@@ -89,7 +111,7 @@
   width: 65%;
   height: auto;
   overflow: hidden;
-  margin: 0 10px 0 10px;
+  margin: 0 20px 0 10px;
 }
 
 #videoLink {
@@ -98,18 +120,65 @@
   border: 0;
 }
 
+#nameVideo {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20pt;
+}
+
+.publisher {
+  padding-top: 10px;
+  margin-left: 10px;
+  display: flex;
+
+}
+
+#userIcon {
+  overflow: hidden;
+  padding-left: 2px;
+  padding-right: 10px;
+  width: 53px;
+}
+
+.subscribeTab {
+  width: 80%;
+}
+
+#nameAuthor {
+  padding-top: 3px;
+  padding-left: 6px;
+}
+
+#subscribe {
+  padding-top: 7px;
+  background-color: transparent;
+  width: auto;
+  border: none;
+}
+
+#view {
+  color: gray;
+  font-size: 14pt;
+  padding-top: 30px;
+  width: 170px;
+  flex-direction: column;
+  border-bottom: solid darkblue 2px;
+  margin-bottom: -12px;
+}
+
 #infoBar {
   display: flex;
+  margin-top: 10px;
+  border-top: solid gray 2px;
+  margin-left: 10px;
 }
 
-#viewNumber {
-  overflow: hidden;
-  width: 100%;
-}
 
 #likeBar {
+  margin-top: 7px;
   height: 20px;
   display: flex;
+  width: 100%;
 }
 
 .likeBarElement {
@@ -122,46 +191,42 @@
   display: flex;
   background-color: transparent;
   border: none;
-  color: gray;
   height: 20px;
+  width: 120px;
 }
 
-a.likeBarElement {
+#threeDotButton {
+  width: 100%;
+}
+
+#likeButton, #unlikeButton{
+  padding-top: 9px;
+  margin-top: -9px;
+}
+
+
+.description {
   color: gray;
-  height: 20px;
-  margin-top: 2px;
+  width: 95%;
+  margin-left: 10px;
+  
 }
 
-#description {
-  display: flex;
-}
+h2.description {
 
-#subscribe {
-  background-color: transparent;
-  overflow: hidden;
-  width: 30%;
-  border: none;
-}
-
-#userIcon {
-  overflow: hidden;
-  width: 80%;
-}
-
-#descriptionText {
-  position: relative;
-  left: 70px;
-  width: 70%;
 }
 
 #sidebar {
   background-color: white;
   overflow: hidden;
-  width: 390px;
+  width: 30%;
+  min-width: 300px;
+
 }
 
 #nextBar {
   display: flex;
+  margin-top: 5px;
 }
 
 #nextText {
@@ -177,6 +242,7 @@ a.likeBarElement {
 }
 
 #autoplayButton {
+  margin-top: -10px;
   overflow: hidden;
   height: 50px;
 }
@@ -209,4 +275,19 @@ a.likeBarElement {
 .sugView {
   font-size: 13px;
   color: gray;
+}
+
+.more {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: center;
+  color: gray;
+  border-top:solid gray 1px;
+  margin-top:10px;
+  font-size: 10pt;
+}
+
+footer{
+  margin-top: 300px;
+  background-color: white;
 }
