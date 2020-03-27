@@ -1,5 +1,5 @@
 body {
-  padding: 0px 40px 0px 40px;
+  padding: 0 40px 0 40px;
   font-family: sans-serif;
 }
 
@@ -92,7 +92,7 @@ body {
 #profilIcon {
   overflow: hidden;
   width: 80px;
-  margin-top: 2px;  
+  margin-top: 2px;
 }
 
 #profilImage {
@@ -130,7 +130,6 @@ body {
   padding-top: 10px;
   margin-left: 10px;
   display: flex;
-
 }
 
 #userIcon {
@@ -173,7 +172,6 @@ body {
   margin-left: 10px;
 }
 
-
 #likeBar {
   margin-top: 7px;
   height: 20px;
@@ -199,21 +197,16 @@ body {
   width: 100%;
 }
 
-#likeButton, #unlikeButton{
+#likeButton,
+#unlikeButton {
   padding-top: 9px;
   margin-top: -9px;
 }
-
 
 .description {
   color: gray;
   width: 95%;
   margin-left: 10px;
-  
-}
-
-h2.description {
-
 }
 
 #sidebar {
@@ -221,7 +214,6 @@ h2.description {
   overflow: hidden;
   width: 30%;
   min-width: 300px;
-
 }
 
 #nextBar {
@@ -278,16 +270,17 @@ h2.description {
 }
 
 .more {
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   position: center;
   color: gray;
-  border-top:solid gray 1px;
-  margin-top:10px;
+  border-top: solid gray 1px;
+  margin-top: 10px;
   font-size: 10pt;
 }
 
-footer{
+footer {
   margin-top: 300px;
   background-color: white;
 }
