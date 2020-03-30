@@ -1,212 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta name="description" content="Youtube is cloned as a project of Microverse Curriculum">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Youtube Clone</title>
         <link rel="stylesheet" href="CSS/reset.css">    
         <link rel="stylesheet" href="CSS/styles.css"> 
-    
+        <script src="https://kit.fontawesome.com/8c7f545978.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAABDklEQVRYw+2X4Y2CQBSEv3e5ArgOKIEO3BK0A0uhBDsRO8AOtgMpYTuY+yErRL3cobLrJUwyISGEmWTfm/fWJJETH2TGYiC7gc+7b80KoALKngBu4r/b/tn19Ejh5itJA6EStALNxFZQjTWvxcOM4pFhbGJsoEkgHtlEXbsEkVnaRJJs6AKzMnn5nwv90obTDKzXr7BQPZ4D+z20LZRlxiBarcB7qOtna0EI3KQqvob3knNTO8ENbfisgYjdTiqKSQayz4J/fgQhSHX9aBo6ST9Mw7/geITtFrpuhnH8GzYbaJrXBKKkGMWnxOX3hRTeZBidcUgof7jdiLIvJJlWMrt7M0q4lNpyNVsM5DbwDTlqsJtbbh7VAAAAAElFTkSuQmCC">
     </head>
 
     <body>
-    
-        <nav id="navbar">
-            
-            <div id="menu" >
-                <img src="images/menuButton.png" alt="Click to see menu">
-            </div>
-            <div id="logo" >
-                <img id="logoImage" src="https://www.hubogi.com/wp-content/uploads/2017/09/Hubogi-Youtube-Yeni-Logo-ve-Sayfa-D%C3%BCzeni-Degisikliklerini-Aclikadi.jpg" alt="Logo of Youtube" >
-            </div>
 
-            <div id="textBox" >
-                <input id="inputText" type="text" size="100"  placeholder="Search">
-            </div> 
+        <nav class="navbar">
+            <button class="menu">
+                <i class="fas fa-bars"></i>
+            </button>
+ 
+            <a href="#" class="logo">
+                <span class="logoImage"></span>
+            </a>
 
-            <div id="search" >
-                <button id="searchButton">
-                    <img id="searchIcon" src="images/searchIcon.png" alt="Click to search" >
+            <div class="searchBox" >
+                <input class="inputText" type="text" placeholder="Search">
+                <button type="submit" class="searchButton buttonFade">
+                    <i class="fas fa-search searchIcon"></i>
+                </button>  
+            </div>
+            <button class="upLoad">
+                <i class="fas fa-upload upLoadIcon"></i>
+            </button> 
+            <div class="signInContainer">
+                <button class="signIn">
+                    Sign In
                 </button>
-                
             </div>
-            <div id="upLoad">
-                <img src="images/upLoad.png" alt="upLoad Icon" >
-            </div>
-            <div id="signIn">
-                <img src="images/signIn.png" alt="signIn Icon">
-            </div>
-
-            <!--
-                Next part is can be actived if new version of Youtube is wanted to use
-            -->
-
-            <!-- 
-            <div id="camera">
-                <img src="images/cameraIcon.png" alt="Camera Icon" >
-            </div>
-            <div id="nineDotIcon">
-                <img src="images/nineDotIcon.png" alt="Apps Icon">
-            </div>
-            <div id="ring">
-                <img src="images/ringIcon.png" alt="Ring Icon">
-            </div>
-            <div id="profilIcon">
-                <img id="profilImage" src="images/profilIcon.png" alt="Avatar">
-            </div-->
         </nav>
         
-        <main>
-            <br>
-            <br>
-            <br>
-            <br>
-            <section id="video">
-                <iframe id="videoLink"  src="https://www.youtube.com/embed/7v6zCPreqYs"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div id="nameVideo">
-                    <h1>Here is why Bogibeel Bridge is special..!</h1>
+        <main>  
+            <section class="video">
+                <div class="videoPlayer">
+                    <iframe class="videoLink"  src="https://www.youtube.com/embed/7v6zCPreqYs"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="nameVideo">
+                        <h1>Here is why Bogibeel Bridge is special..!</h1>
+                    </div>
+                    <div class="publisher">     
+                        <a href="#">
+                            <img class="userIcon" src="https://yt3.ggpht.com/a/AATXAJxq8-5mFb_CczC23JSfVVN6UZe8DpStOdZ9Dg=s48-c-k-c0xffffffff-no-rj-mo" alt="Profil of author">                                
+                        </a>
+                        <div class="subscribeTab">
+                            <a href="#" class="nameAuthor">PIB India</a>
+                            <div class="subscribeInfo">
+                                <button type="button" class="subscribe">
+                                    <span class="subscribeContainer">
+                                        <i class="fab fa-youtube"></i>
+                                        Subscribe
+                                    </span>
+                                </button>   
+                               <span class="subscribeNo">799</span>
+                            </div>
+     
+                        </div>
+                        <div class="view">
+                            <h2>2,982,227 views</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="infoBar">
+                        <div class="likeBar">       
+                            <button class="buttonAll addButton" >
+                                <i class="fas fa-plus"></i>
+                                <span>Add to</span>
+                            </button>   
+                            <button class="buttonAll shareButton">
+                                <i class="fas fa-share"></i>
+                                <span>Share</span>
+                            </button> 
+                            <button class="buttonAll threeDotButton">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <span>More</span>
+                            </button>   
+                            <button class="buttonAll likeButton">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>359</span>
+                            </button>  
+                            <button class="buttonAll unlikeButton">
+                                <i class="fas fa-thumbs-up fa-rotate-180"></i>
+                                <span>14</span>
+                            </button>                      
+                        </div>
+                    </div>
                 </div>
 
-
-                <div class="publisher">
-                    <div id="userIcon" >
-                        <img src="images/userIcon.png" alt="Profil of author">
-                    </div>
-                    <div class="subscribeTab">
-                        <h1 id="nameAuthor">PIB India</h1> 
-                        <button id="subscribe">
-                            <img src="images/subscribe.PNG" alt="Click to subscribe">  
-                        </button>     
-                    </div>
-                    <div id="view">
-                        <h2>2,982,227 views</h2>
-                    </div>
-                </div>
-                
-                <div id="infoBar">
-                    <div id="likeBar">
-                        <button class="buttonAll">
-                            <img class="likeBarElement"  src="images/shareButton.png" alt="Click to share">                    
-                        </button>   
-                        <button class="buttonAll" id="addButton">
-                            <img class="likeBarElement"  src="images/addListButton.png" alt="Click to save">                
-                        </button>   
-                        <button class="buttonAll" id="threeDotButton">
-                            <img class="likeBarElement"  src="images/threeDotButton.png" alt="Click to see more options">                            
-                        </button>   
-                        <button class="buttonAll" id="likeButton">
-                            <img class="likeBarElement"  src="images/likeButton.png" alt="Click to like">
-                        </button>  
-                        <button class="buttonAll" id="unlikeButton">
-                            <img class="likeBarElement"  src="images/unlikeButton.png" alt="Click to unlike">
-                        </button>                      
-                    </div>
-                </div>
-                <br>
                 <div class="description">
                     <h2>Published on Feb 27,2014</h2>
-                    <p>A befitting tribute to former PM #AtalBihariVajpayee, India’s longest Rail-cum-Road Bridge, #BogibeelBridge over river Brahmaputra is a construction marvel and a milestone for the development of North East. Watch to know more.</p>
-                    <h4 class="more">SHOW MORE</h4>   
+                    <p>A befitting tribute to former PM <span>#AtalBihariVajpayee</span>, India’s longest Rail-cum-Road Bridge, <span>#BogibeelBridge</span> over river Brahmaputra is a construction marvel and a milestone for the development of North East. Watch to know more.</p>
+                    <button class="showMore">
+                        SHOW MORE
+                    </button> 
                 </div>
                
             </section>
-            <aside id="sidebar">
-                <div id="nextBar">
-                    <h1 id="nextText">Up Next</h1>
-                    <h1 id="autoplay">Autoplay</h1>
-                    <img id="autoplayButton" src="sidebar/autoplayButton.png" alt="Click to autoplay">
+            <aside class="sidebar">
+                <div class="nextBar">
+                    <span class="nextText">Up Next</span>
+                    <span class="toggle">Autoplay</span>
+                    
+                    <!-- This label was taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch-->
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
                 </div>
-                <div id="suggestions">
-                    <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion1.png" alt="One of suggestion videos" >
+                <div >
+                    <div class="suggestionElement firstSug"> 
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug1" src="#"></video>                            
+                            <span>14:20</span>                                  
+                        </a>
                         <div class="sugProperites">
-                            <h2 class="sugName">Your First GitHub Pull Request (in 10 Mins)</h2>
-                            <h2 class="sugAuthor">Jackson Bates</h2>
-                            <h2 class="sugView">43 K view</h2>
+                            <a href="#" class="sugName"> Your First GitHub Pull Request (in 10 Mins)</a>
+                            <a href="#" class="sugAuthor">Jackson Bates</a>
+                            <a href="#" class="sugView">43 K view</a>
+                        </div>                    
+                    </div>
+                                        
+                    <div class="suggestionElement"> 
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug2" src="#"></video>
+                            <span>14:25</span>
+                        </a>              
+                    
+                        <div class="sugProperites">
+                            <a href="#" class="sugName">Contributing to Open Source Part II: The Real Way</a>
+                            <a href="#" class="sugAuthor">The Odin Project</a>
+                            <a href="#" class="sugView">33 K view</a>
                         </div>                    
                     </div>
                     <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion2.png" alt="One of suggestion videos" >
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug3" src="#"></video>
+                            <span>29:57</span>                        
+                        </a>
+                        
                         <div class="sugProperites">
-                            <h2 class="sugName">Contributing to Open Source Part I: The Easy Way - YouTube</h2>
-                            <h2 class="sugAuthor">The Odin Project</h2>
-                            <h2 class="sugView">33 K view</h2>
+                            <a href="#" class="sugName">Anjana Vakil: Javascript ile Fonksiyonel Programlamayı ... </a>
+                            <a href="#" class="sugAuthor">JSUnconf</a>
+                            <a href="#" class="sugView">1.3 Mn view</a>
                         </div>                    
                     </div>
                     <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion3.png" alt="One of suggestion videos" >
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug4" src="#"></video>
+                            <span>10:36</span>                
+                        </a>
+                        
                         <div class="sugProperites">
-                            <h2 class="sugName">Anjana Vakil: Javascript ile Fonksiyonel Programlamayı ... </h2>
-                            <h2 class="sugAuthor">JSUnconf</h2>
-                            <h2 class="sugView">1.3 Mn view</h2>
+                            <a href="#" class="sugName">14 Must Know Chrome Dev Tools Tricks - #JavaScript30 ...</a>
+                            <a href="#" class="sugAuthor">Wes Bos</a>
+                            <a href="#" class="sugView">63 K view</a>
                         </div>                    
                     </div>
                     <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion4.png" alt="One of suggestion videos" >
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug5" src="#"></video>
+                            <span>12:19</span>                
+                        </a>                        
                         <div class="sugProperites">
-                            <h2 class="sugName">14 Must Know Chrome Dev Tools Tricks - #JavaScript30 ...</h2>
-                            <h2 class="sugAuthor">Wes Bos</h2>
-                            <h2 class="sugView">63 K view</h2>
+                            <a href="#" class="sugName">What Python Projects Should I Build to Get a Job? </a>
+                            <a href="#" class="sugAuthor">Real Python</a>
+                            <a href="#" class="sugView">187 K view</a>
                         </div>                    
                     </div>
                     <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion5.png" alt="One of suggestion videos" >
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug6" src="#"></video>
+                            <span>10:53</span>                
+                        </a>                        
                         <div class="sugProperites">
-                            <h2 class="sugName">What Python Projects Should I Build to Get a Job? </h2>
-                            <h2 class="sugAuthor">Real Python</h2>
-                            <h2 class="sugView">187 K view</h2>
+                            <a href="#" class="sugName">A new way to contribute to open source - GitHub Satellite 2019</a>
+                            <a href="#" class="sugAuthor">GitHub</a>
+                            <a href="#" class="sugView">6,6 K view</a>
                         </div>                    
                     </div>
                     <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion6.png" alt="One of suggestion videos" >
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug7" src="#"></video>
+                            <span>51:20</span>                
+                        </a>                      
                         <div class="sugProperites">
-                            <h2 class="sugName">Contributing to Open-Source Projects as a New Python...</h2>
-                            <h2 class="sugAuthor">Real Python</h2>
-                            <h2 class="sugView">25 K view</h2>
+                            <a href="#" class="sugName">Google Chrome Developer Tools Crash Course </a>
+                            <a href="#" class="sugAuthor">Traversy Media</a>
+                            <a href="#" class="sugView">254 K view</a>
                         </div>                    
                     </div>
                     <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion7.png" alt="One of suggestion videos" >
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug8" src="#"></video>
+                            <span>38:58</span>                
+                        </a>
                         <div class="sugProperites">
-                            <h2 class="sugName">Google Chrome Developer Tools Crash Course </h2>
-                            <h2 class="sugAuthor">Traversy Media</h2>
-                            <h2 class="sugView">254 K view</h2>
+                            <a href="#" class="sugName">50 Dev tool tips and tricks:  Become an expert front end developer </a>
+                            <a href="#" class="sugAuthor">That JS Dude</a>
+                            <a href="#" class="sugView">45 K view</a>
                         </div>                    
                     </div>
                     <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion8.png" alt="One of suggestion videos" >
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug9" src="#"></video>
+                            <span>12:37</span>                
+                        </a>
                         <div class="sugProperites">
-                            <h2 class="sugName">50 Dev tool tips and tricks:  Become an expert front end developer </h2>
-                            <h2 class="sugAuthor">That JS Dude</h2>
-                            <h2 class="sugView">45 K view</h2>
+                            <a href="#" class="sugName">JavaScript Pro Tips - Code This, NOT That</a>
+                            <a href="#" class="sugAuthor">Fireship</a>
+                            <a href="#" class="sugView">1,1 Mn view</a>
                         </div>                    
                     </div>
                     <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion9.png" alt="One of suggestion videos" >
+                        <a href="#" class="sugVideoContainer">
+                            <video class="sugVideo sug10" src="#"></video>
+                            <span>1:01:06</span>                
+                        </a>
                         <div class="sugProperites">
-                            <h2 class="sugName">JavaScript Pro Tips - Code This, NOT That</h2>
-                            <h2 class="sugAuthor">Fireship</h2>
-                            <h2 class="sugView">1,1 Mn view</h2>
-                        </div>                    
-                    </div>
-                    <div class="suggestionElement"> 
-                        <img class="sugImage" src="sidebar/suggestion10.png" alt="One of suggestion videos" >
-                        <div class="sugProperites">
-                            <h2 class="sugName">Debugging JavaScript - Beginner to Advanced in One Video</h2>
-                            <h2 class="sugAuthor">youwebdev</h2>
-                            <h2 class="sugView">105 K view</h2>
+                            <a href="#" class="sugName">Debugging JavaScript - Beginner to Advanced in One Video</a>
+                            <a href="#" class="sugAuthor">youwebdev</a>
+                            <a href="#" class="sugView">170 K view</a>
                         </div>                    
                     </div>
                 </div>
-                <h4 class="more">SHOW MORE</h4>       
+                <button class="showMore">
+                    SHOW MORE
+                </button>  
             </aside>
         </main> 
 
         <footer>
-           <img src="images/footer.png" alt="">
-        </footer>
+            <div class="footerContainer">
+                <a href="#" class="footerLogo">
+                    <span class="footerLogoImage"></span>
+                </a>
+                <div class="footerInfo">
+                    <button class="language">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Language:</span><span class="bold">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <button class="location">
+                        <span>Location:</span><span class="bold">Netherlands</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <button class="restrictedMode">
+                        <span>Restricted Mode: </span><span class="bold">Off</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <button class="history">
+                        <i class="fas fa-hourglass-end"></i>
+                        <span class="bold">History</span>
+                    </button>
+                    <button class="help">
+                        <i class="far fa-question-circle"></i>
+                        <span class="bold">Help</span>
+                    </button>
+                </div>
+            </div>
 
-</body>
+            <div class="about">
+                <a href="#"> About</a>
+                <a href="#"> Press</a>
+                <a href="#"> Copyright</a>
+                <a href="#"> Creators</a>
+                <a href="#"> Advertise</a>
+                <a href="#"> Developers</a>
+            </div>
+
+            <div class="terms">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Policy & Safety</a>
+                <a href="#">Test new features</a>
+
+            </div>
+
+        </footer>
+        
+    </body>
 
 
 
