@@ -174,9 +174,11 @@ main {
   font-size: 20pt;
 }
 
-.publisher {
+.publisher,
+.nameVideo {
   padding-top: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
 }
 
@@ -234,55 +236,46 @@ main {
 .view {
   color: gray;
   font-size: 14pt;
-  padding-top: 30px;
+  padding-top: 43px;
   width: 170px;
   flex-direction: column;
   border-bottom: solid #167ac6 2px;
   margin-bottom: -12px;
 }
 
-.infoBar {
+.likeBar {
   display: flex;
   margin-top: 10px;
   border-top: solid #e2e2e2 2px;
-  margin-left: 10px;
-}
-
-.likeBar {
-  margin-top: 7px;
-  height: 20px;
-  display: flex;
-  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 30px;
 }
 
 .buttonAll {
   color: #7f7f7f;
+  overflow: hidden;
   display: flex;
   background-color: transparent;
   border: none;
-  height: 20px;
+  height: 40px;
+  float: left;
+  font-size: 15px;
   width: 200px;
-  font-size: 11pt;
-  align-items: center;
 }
 
-.fa-plus,
-.fa-share,
-.fa-ellipsis-h,
-.fa-thumbs-up {
-  font-size: 20px;
+.likeBarFirstThree {
+  display: flex;
+  width: 40%;
+  padding-right: 20%;
 }
 
-.threeDotButton {
-  width: 10%;
-  margin-right: 35%;
-}
-
-.likeButton,
-.unlikeButton {
-  padding-top: 9px;
-  margin-top: -9px;
-  width: 120px;
+.likeBarLastTwo {
+  display: flex;
+  margin-left: 20%;
+  width: 20%;
+  border-top: solid #167ac6 2px;
+  margin-top: -2px;
 }
 
 .buttonAll span {
@@ -294,9 +287,9 @@ main {
   background-color: white;
   color: #333;
   line-height: 1.5;
-  padding-left: 10px;
+  padding-left: 20px;
   font-size: 11pt;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .description h2 {
