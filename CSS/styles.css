@@ -98,6 +98,16 @@ button {
   color: #808080;
 }
 
+.bell {
+  width: 100px;
+  background-color: transparent;
+  color: black;
+  font-size: 140%;
+  padding-right: 50px;
+  float: left;
+  border: none;
+}
+
 .signInContainer {
   width: 100px;
   margin-right: 40px;
@@ -186,6 +196,7 @@ main {
   overflow: hidden;
   width: 53px;
   height: 53px;
+  border-radius: 50%;
 }
 
 .subscribeInfo {
@@ -443,80 +454,40 @@ input:checked + .slider::before {
   background-image: url("https://i.ytimg.com/vi/dSl_qnWO104/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD4Fa0cYcyAtnQuf9aWV7YjB3GWbw");
 }
 
-.suggestionElement:hover .sug1 {
-  background-image: url("https://i.ytimg.com/an_webp/dSl_qnWO104/mqdefault_6s.webp?du=3000&sqp=CJj1hvQF&rs=AOn4CLB1BN8sBZ94p-Y6wBZkty26rp4qfw");
-}
-
 .sug2 {
   background-image: url("https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAiks9toy1laAgbrWzRVvOiAijYqg");
-}
-
-.suggestionElement:hover .sug2 {
-  background-image: url("https://i.ytimg.com/an_webp/mENDYhfxH-o/mqdefault_6s.webp?du=3000&sqp=CMLJhvQF&rs=AOn4CLCIg4k6uMM0bQ_iwUfE5dS7QQaynw");
 }
 
 .sug3 {
   background-image: url("https://i.ytimg.com/vi/e-5obm1G_FY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAng0xMCxmoQ9iASXvLBbaO_-UxvQ");
 }
 
-.suggestionElement:hover .sug3 {
-  background-image: url("https://i.ytimg.com/an_webp/e-5obm1G_FY/mqdefault_6s.webp?du=3000&sqp=CJjRhvQF&rs=AOn4CLCmMvQx5k5QFpdGloHZtK-5FeC_Lw");
-}
-
 .sug4 {
   background-image: url("https://i.ytimg.com/vi/xkzDaKwinA8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAAB7RlVwYOiW7NnsEpfINCrCg0GA");
-}
-
-.suggestionElement:hover .sug4 {
-  background-image: url("https://i.ytimg.com/an_webp/xkzDaKwinA8/mqdefault_6s.webp?du=3000&sqp=CMykhvQF&rs=AOn4CLDslij0wHu0552Kxi897g0BCddmPQ");
 }
 
 .sug5 {
   background-image: url("https://i.ytimg.com/vi/p-89r5QvQvQ/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCzWZ7vp2-UyUkPY1IH-3dnT3wJYg");
 }
 
-.suggestionElement:hover .sug5 {
-  background-image: url("https://i.ytimg.com/an_webp/p-89r5QvQvQ/mqdefault_6s.webp?du=3000&sqp=CKCjhvQF&rs=AOn4CLByRAvz0vKlAKRqolNWGfXeoGR4qw");
-}
-
 .sug6 {
   background-image: url("https://i.ytimg.com/vi/FYkBA9epUEk/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBSwGpJqwjPVHFG6TmpNewsmKX77w");
-}
-
-.suggestionElement:hover .sug6 {
-  background-image: url("https://i.ytimg.com/an_webp/FYkBA9epUEk/mqdefault_6s.webp?du=3000&sqp=CN-whvQF&rs=AOn4CLBKGgyo2H5zzfFaJdna6j7cjSBW6w");
 }
 
 .sug7 {
   background-image: url("https://i.ytimg.com/vi/x4q86IjJFag/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC9XFaAj3vABdz-Tr2sEuS7OWkgrQ");
 }
 
-.suggestionElement:hover .sug7 {
-  background-image: url("https://i.ytimg.com/an_webp/x4q86IjJFag/mqdefault_6s.webp?du=3000&sqp=CMC3hvQF&rs=AOn4CLCRpbxh3nv8_B2M9exSoPM1thEEpA");
-}
-
 .sug8 {
   background-image: url("https://i.ytimg.com/vi/ucWpMZoB7Jg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBZlfn7Y6E_TBeLee17nm4JMa12JA");
-}
-
-.suggestionElement:hover .sug8 {
-  background-image: url("https://i.ytimg.com/an_webp/oYvtsHu6GmY/mqdefault_6s.webp?du=3000&sqp=COqxhvQF&rs=AOn4CLA8ZaY_N7hcFAaYMiERt8QrYyVaNg");
 }
 
 .sug9 {
   background-image: url("https://i.ytimg.com/vi/Mus_vwhTCq0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDgJgdEA4-Jnx1XhwAQ-bNBtIOt-g");
 }
 
-.suggestionElement:hover .sug9 {
-  background-image: url("https://i.ytimg.com/an_webp/Mus_vwhTCq0/mqdefault_6s.webp?du=3000&sqp=CM_MhvQF&rs=AOn4CLD3YBxsNO7mM4wf1NWMw74Kmit1dQ");
-}
-
 .sug10 {
   background-image: url("https://i.ytimg.com/vi/-q1z8BPFItw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAdXT6T_bfufgGpbHn5mKVwFT0Jsw");
-}
-
-.suggestionElement:hover .sug10 {
-  background-image: url("https://i.ytimg.com/an_webp/-q1z8BPFItw/mqdefault_6s.webp?du=3000&sqp=CLC0hvQF&rs=AOn4CLBMCHl5yLQ_Csofko2nIKj6QEe6FQ");
 }
 
 .sugProperites {
