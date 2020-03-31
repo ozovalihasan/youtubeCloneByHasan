@@ -101,7 +101,7 @@ button {
 .bell {
   width: 100px;
   background-color: transparent;
-  color: black;
+  color: #808080;
   font-size: 140%;
   padding-right: 50px;
   float: left;
