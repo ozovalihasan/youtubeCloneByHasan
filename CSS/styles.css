@@ -1,5 +1,5 @@
 body {
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
   font-family: sans-serif;
 }
 
@@ -16,15 +16,6 @@ body {
   padding-bottom: 11px;
 }
 
-.buttonFade {
-  opacity: 0.8;
-}
-
-.buttonFade:hover {
-  color: gray;
-  opacity: 1;
-}
-
 button {
   cursor: pointer;
 }
@@ -34,13 +25,13 @@ button {
   color: black;
   font-size: 140%;
   float: left;
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   border: none;
-  padding-right: 20px;
 }
 
 .fa-bars {
-  font-size: 75%;
+  font-size: 100%;
 }
 
 .logo {
@@ -65,6 +56,7 @@ button {
   width: 60%;
   height: 100%;
   padding-left: 75px;
+  padding-right: 10%;
 }
 
 .inputText {
@@ -81,74 +73,64 @@ button {
   cursor: pointer;
 }
 
+.buttonFade {
+  opacity: 0.8;
+}
+
+.buttonFade:hover {
+  color: gray;
+  opacity: 1;
+}
+
 .searchIcon {
   font-size: 125%;
   color: #b8b8b8;
 }
 
-.upLoad {
-  align-items: center;
-  width: 150px;
+.navbarWidth {
+  width: 80px;
+}
+
+.appContainer {
   background-color: transparent;
+  display: flex;
   border: none;
 }
 
-.upLoadIcon {
-  font-size: 150%;
-  color: #808080;
+.nineDot {
+  display: flex;
+  background-color: transparent;
+  padding-left: 40%;
+}
+
+.threeSquare {
+  margin-left: 2px;
+  background-color: transparent;
+  align-content: space-between;
+}
+
+.oneDot {
+  display: flex;
+  background-color: #606060;
+  flex-direction: column;
+  border: solid #606060 2px;
+  margin-block-end: 2px;
 }
 
 .bell {
-  width: 100px;
   background-color: transparent;
-  color: #808080;
+  color: #606060;
   font-size: 140%;
-  padding-right: 50px;
   float: left;
   border: none;
 }
 
-.signInContainer {
-  width: 100px;
-  margin-right: 40px;
+.profilIcon {
+  background-color: transparent;
+  border: none;
 }
 
-.signIn {
-  color: white;
-  background-color: #167ac6;
-  overflow: hidden;
-  height: 100%;
-  width: 90px;
-  border: transparent;
-  border-radius: 10%;
-}
-
-#camera {
-  overflow: hidden;
-  width: 80px;
-  margin-top: 2px;
-}
-
-#nineDotIcon {
-  overflow: hidden;
-  width: 80px;
-  margin-top: 3px;
-}
-
-#ring {
-  overflow: hidden;
-  width: 80px;
-  background-color: white;
-  margin-top: 1px;
-}
-
-#profilIcon {
-  overflow: hidden;
-  width: 80px;
-  margin-top: 2px;
-}
-
-#profilImage {
+.profilImage {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -156,6 +138,8 @@ button {
 
 main {
   padding-top: 72px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .video {
@@ -179,17 +163,64 @@ main {
 }
 
 .nameVideo {
-  margin-left: 10px;
   margin-top: 10px;
   font-size: 20pt;
 }
 
-.publisher,
-.nameVideo {
-  padding-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+.likeBar {
   display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  border-bottom: solid #e0e0e0 1px;
+}
+
+.likeBarViews {
+  width: auto;
+  overflow: hidden;
+  color: #909090;
+}
+
+.likeBarButtons {
+  margin-left: auto;
+}
+
+.buttonAll {
+  color: #909090;
+  overflow: hidden;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  width: auto;
+  float: left;
+  font-size: 15px;
+}
+
+.buttonAll span {
+  padding-left: 5px;
+}
+
+.likeButton,
+.unlikeButton {
+  padding-bottom: 12px;
+  border-bottom: solid #909090 2px;
+}
+
+.threeDotButton {
+  margin-right: auto;
+}
+
+.description {
+  display: flex;
+  background-color: white;
+  color: #333;
+  line-height: 1.5;
+  font-size: 11pt;
+}
+
+.publisher {
+  width: 53px;
 }
 
 .userIcon {
@@ -199,31 +230,43 @@ main {
   border-radius: 50%;
 }
 
-.subscribeInfo {
-  display: flex;
+.noSubscriber {
+  float: left;
+  width: auto;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-.subscribeTab {
-  display: block;
-  flex-direction: column;
-  width: 80%;
+.noSubscriber span {
+  color: #606060;
 }
 
 .nameAuthor {
   color: black;
   display: block;
-  padding-top: 3px;
-  padding-left: 6px;
   text-decoration: none;
 }
 
+.subscribeTab {
+  flex-direction: column;
+  overflow: hidden;
+  width: auto;
+  margin-left: auto;
+  padding-right: 5px;
+}
+
+.subscribeInfo {
+  display: flex;
+}
+
 .subscribe {
-  height: 30px;
+  height: 40px;
   margin-top: 7px;
-  background-color: red;
+  background-color: #c00;
   border: none;
   margin-left: 6px;
   cursor: pointer;
+  border-radius: 5%;
 }
 
 .subscribeContainer {
@@ -231,90 +274,19 @@ main {
   color: white;
 }
 
-.subscribeNo {
-  color: #7b7b7b;
-  width: 40px;
-  margin-top: 7px;
-  padding-top: 7px;
-  border: solid #ccc 1px;
-  text-align: center;
-}
-
 .fa-youtube {
   color: white;
 }
 
-.view {
-  color: gray;
-  font-size: 14pt;
-  padding-top: 43px;
-  width: 170px;
-  flex-direction: column;
-  border-bottom: solid #167ac6 2px;
-  margin-bottom: -12px;
-}
-
-.likeBar {
-  display: flex;
-  margin-top: 10px;
-  border-top: solid #e2e2e2 2px;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 30px;
-}
-
-.buttonAll {
-  color: #7f7f7f;
-  overflow: hidden;
-  display: flex;
-  background-color: transparent;
-  border: none;
-  height: 40px;
-  float: left;
-  font-size: 15px;
-  width: 200px;
-}
-
-.likeBarFirstThree {
-  display: flex;
-  width: 40%;
-  padding-right: 20%;
-}
-
-.likeBarLastTwo {
-  display: flex;
-  margin-left: 20%;
-  width: 20%;
-  border-top: solid #167ac6 2px;
-  margin-top: -2px;
-}
-
-.buttonAll span {
-  padding-left: 10px;
-}
-
-.description {
+.descriptionText {
   padding-top: 10px;
-  background-color: white;
-  color: #333;
-  line-height: 1.5;
-  padding-left: 20px;
-  font-size: 11pt;
-  padding-right: 20px;
-}
-
-.description h2 {
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-.description span {
-  color: #065fd9;
+  padding-left: 63px;
+  padding-right: 100px;
 }
 
 .showMore {
   background-color: transparent;
-  color: #bbb;
+  color: #606060;
   width: 100%;
   border: none;
   border-top: solid #e2e2e2 1px;
@@ -346,68 +318,48 @@ main {
 .toggle {
   font-size: 16px;
   width: auto;
+  display: flex;
 }
 
-/*
-Lines from here to .slider.round:before are taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch with cop-pasting
-*/
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 35px;
-  height: 17px;
+.toggleBox {
+  width: 80px;
+  height: 20px;
+  display: flex;
 }
 
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider::before {
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  left: 3px;
-  bottom: 1px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-input:checked + .slider {
-  background-color: #2196f3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .slider::before {
-  -webkit-transform: translateX(12px);
-  -ms-transform: translateX(12px);
-  transform: translateX(12px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round::before {
+.divBackground1 {
+  overflow: hidden;
+  background-color: #e3e3e3;
+  width: 20px;
+  height: 20px;
+  margin-right: -10px;
   border-radius: 50%;
+}
+
+.divBackground2 {
+  overflow: hidden;
+  background-color: #e3e3e3;
+  width: 20px;
+  height: 20px;
+  padding-right: -10px;
+}
+
+.divBackground3 {
+  overflow: hidden;
+  background-color: #e3e3e3;
+  height: 20px;
+  border-radius: 50%;
+  width: 20px;
+  margin-left: -10px;
+}
+
+.ball {
+  margin-top: 2.5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #065fd4;
+  margin-left: -17.5px;
 }
 
 .suggestionElement {
