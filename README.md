@@ -13,8 +13,7 @@ This project was started with Hasan and Prabhakar, but then Prabhakar couldn't c
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ozovalihasan/youtubeCloneByHasan/mainParts/index.html)
-
+[Live Demo Link](https://raw.githack.com/ozovalihasan/youtubeCloneByHasan/master/index.html)
 
 ## Authors
 
