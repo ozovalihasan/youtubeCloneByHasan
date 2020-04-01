@@ -1,4 +1,4 @@
-# youtubeCloneByHasan
+﻿# Youtube Clone
 
 > Youtube is cloned as a project of microverse
 
@@ -9,12 +9,11 @@ This project was started with Hasan and Prabhakar, but then Prabhakar couldn't c
 ## Built With
 -HTML 
 -CSS
--https://www.youtube.com/watch?v=V74l_zS1x8E is used as a source to clone
+-http://archive.vn/Bss88 is used as a source to clone
 
 ## Live Demo
 
-[Live Demo Link](http://ozovalihasan.github.io/youtubeCloneByHasan/index.html)
-
+[Live Demo Link](https://raw.githack.com/ozovalihasan/youtubeCloneByHasan/master/index.html)
 
 ## Authors
 
